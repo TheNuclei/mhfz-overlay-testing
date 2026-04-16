@@ -162,10 +162,6 @@ public sealed class DataLoader
             LoggerInstance.Fatal(CultureInfo.InvariantCulture, "Loaded overlay inside quest {0}", this.Model.QuestID());
             MessageBox.Show("Loaded overlay inside quest. Please load the overlay outside quests.", Messages.FatalTitle, MessageBoxButton.OK, MessageBoxImage.Error);
             LoggingService.WriteCrashLog(new Exception("Loaded overlay inside quest"));
-            Application.Current.Dispatcher.Invoke(() =>
-            {
-                Application.Current.Shutdown(1);
-            });
         }
     }
 
