@@ -58,105 +58,105 @@ public sealed class AddressModelHGE : AddressModel
     public int LargeMonster2Road() => this.M.ReadByte("mhfo-hd.dll+DCD4498");
 
     // TODO monster parts max values
-    public string Monster1BP1() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,348").ToString(CultureInfo.InvariantCulture);
+    public string Monster1BP1() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,348").ToString(CultureInfo.InvariantCulture);
 
     /// <inheritdoc/>
-    public override int Monster1Part1() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,348");
+    public override int Monster1Part1() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,348");
 
-    public string Monster1BP2() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,350").ToString(CultureInfo.InvariantCulture);
-
-    /// <inheritdoc/>
-    public override int Monster1Part2() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,350");
-
-    public string Monster1BP3() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,358").ToString(CultureInfo.InvariantCulture);
+    public string Monster1BP2() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,350").ToString(CultureInfo.InvariantCulture);
 
     /// <inheritdoc/>
-    public override int Monster1Part3() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,358");
+    public override int Monster1Part2() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,350");
 
-    public string Monster1BP4() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,360").ToString(CultureInfo.InvariantCulture);
-
-    /// <inheritdoc/>
-    public override int Monster1Part4() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,360");
-
-    public string Monster1BP5() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,368").ToString(CultureInfo.InvariantCulture);
+    public string Monster1BP3() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,358").ToString(CultureInfo.InvariantCulture);
 
     /// <inheritdoc/>
-    public override int Monster1Part5() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,368");
+    public override int Monster1Part3() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,358");
 
-    public string Monster1BP6() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,370").ToString(CultureInfo.InvariantCulture);
-
-    /// <inheritdoc/>
-    public override int Monster1Part6() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,370");
-
-    public string Monster1BP7() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,378").ToString(CultureInfo.InvariantCulture);
+    public string Monster1BP4() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,360").ToString(CultureInfo.InvariantCulture);
 
     /// <inheritdoc/>
-    public override int Monster1Part7() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,378");
+    public override int Monster1Part4() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,360");
 
-    public string Monster1BP8() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,380").ToString(CultureInfo.InvariantCulture);
-
-    /// <inheritdoc/>
-    public override int Monster1Part8() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,380");
-
-    public string Monster1BP9() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,388").ToString(CultureInfo.InvariantCulture);
+    public string Monster1BP5() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,368").ToString(CultureInfo.InvariantCulture);
 
     /// <inheritdoc/>
-    public override int Monster1Part9() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,388");
+    public override int Monster1Part5() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,368");
 
-    public string Monster1BP10() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,390").ToString(CultureInfo.InvariantCulture);
-
-    /// <inheritdoc/>
-    public override int Monster1Part10() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,390");
-
-    public string Monster2BP1() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1238").ToString(CultureInfo.InvariantCulture);
+    public string Monster1BP6() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,370").ToString(CultureInfo.InvariantCulture);
 
     /// <inheritdoc/>
-    public override int Monster2Part1() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1238");
+    public override int Monster1Part6() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,370");
 
-    public string Monster2BP2() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1240").ToString(CultureInfo.InvariantCulture);
-
-    /// <inheritdoc/>
-    public override int Monster2Part2() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1240");
-
-    public string Monster2BP3() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1248").ToString(CultureInfo.InvariantCulture);
+    public string Monster1BP7() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,378").ToString(CultureInfo.InvariantCulture);
 
     /// <inheritdoc/>
-    public override int Monster2Part3() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1248");
+    public override int Monster1Part7() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,378");
 
-    public string Monster2BP4() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1250").ToString(CultureInfo.InvariantCulture);
-
-    /// <inheritdoc/>
-    public override int Monster2Part4() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1250");
-
-    public string Monster2BP5() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1258").ToString(CultureInfo.InvariantCulture);
+    public string Monster1BP8() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,380").ToString(CultureInfo.InvariantCulture);
 
     /// <inheritdoc/>
-    public override int Monster2Part5() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1258");
+    public override int Monster1Part8() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,380");
 
-    public string Monster2BP6() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1260").ToString(CultureInfo.InvariantCulture);
-
-    /// <inheritdoc/>
-    public override int Monster2Part6() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1260");
-
-    public string Monster2BP7() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1268").ToString(CultureInfo.InvariantCulture);
+    public string Monster1BP9() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,388").ToString(CultureInfo.InvariantCulture);
 
     /// <inheritdoc/>
-    public override int Monster2Part7() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1268");
+    public override int Monster1Part9() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,388");
 
-    public string Monster2BP8() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1270").ToString(CultureInfo.InvariantCulture);
-
-    /// <inheritdoc/>
-    public override int Monster2Part8() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1270");
-
-    public string Monster2BP9() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1278").ToString(CultureInfo.InvariantCulture);
+    public string Monster1BP10() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,390").ToString(CultureInfo.InvariantCulture);
 
     /// <inheritdoc/>
-    public override int Monster2Part9() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1278");
+    public override int Monster1Part10() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,390");
 
-    public string Monster2BP10() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1280").ToString(CultureInfo.InvariantCulture);
+    public string Monster2BP1() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1238").ToString(CultureInfo.InvariantCulture);
 
     /// <inheritdoc/>
-    public override int Monster2Part10() => this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1280");
+    public override int Monster2Part1() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1238");
+
+    public string Monster2BP2() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1240").ToString(CultureInfo.InvariantCulture);
+
+    /// <inheritdoc/>
+    public override int Monster2Part2() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1240");
+
+    public string Monster2BP3() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1248").ToString(CultureInfo.InvariantCulture);
+
+    /// <inheritdoc/>
+    public override int Monster2Part3() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1248");
+
+    public string Monster2BP4() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1250").ToString(CultureInfo.InvariantCulture);
+
+    /// <inheritdoc/>
+    public override int Monster2Part4() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1250");
+
+    public string Monster2BP5() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1258").ToString(CultureInfo.InvariantCulture);
+
+    /// <inheritdoc/>
+    public override int Monster2Part5() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1258");
+
+    public string Monster2BP6() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1260").ToString(CultureInfo.InvariantCulture);
+
+    /// <inheritdoc/>
+    public override int Monster2Part6() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1260");
+
+    public string Monster2BP7() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1268").ToString(CultureInfo.InvariantCulture);
+
+    /// <inheritdoc/>
+    public override int Monster2Part7() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1268");
+
+    public string Monster2BP8() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1270").ToString(CultureInfo.InvariantCulture);
+
+    /// <inheritdoc/>
+    public override int Monster2Part8() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1270");
+
+    public string Monster2BP9() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1278").ToString(CultureInfo.InvariantCulture);
+
+    /// <inheritdoc/>
+    public override int Monster2Part9() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1278");
+
+    public string Monster2BP10() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1280").ToString(CultureInfo.InvariantCulture);
+
+    /// <inheritdoc/>
+    public override int Monster2Part10() => this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1280");
 
     public string Monster1RoadBP1() => this.M.Read2Byte("mhfo-hd.dll+E37DF18,348").ToString(CultureInfo.InvariantCulture);
 
@@ -211,79 +211,79 @@ public sealed class AddressModelHGE : AddressModel
     public override int Monster4HPInt() => this.M.Read2Byte("0043C60C");
 
     /// <inheritdoc/>
-    public override string Monster1AtkMult() => this.GetNotRoad() ? this.M.ReadFloat("mhfo-hd.dll+0E37DD38,898").ToString(CultureInfo.InvariantCulture) : this.Monster1RoadAtkMult();
+    public override string Monster1AtkMult() => this.GetNotRoad() ? this.M.ReadFloat("mhfo-hd.dll+DC6BB9C,898").ToString(CultureInfo.InvariantCulture) : this.Monster1RoadAtkMult();
 
     /// <inheritdoc/>
-    public override decimal Monster1DefMult() => this.GetNotRoad() ? (decimal)this.M.ReadFloat("mhfo-hd.dll+0E37DD38,89C", string.Empty, false) : this.Monster1RoadDefMult();
+    public override decimal Monster1DefMult() => this.GetNotRoad() ? (decimal)this.M.ReadFloat("mhfo-hd.dll+DC6BB9C,89C", string.Empty, false) : this.Monster1RoadDefMult();
 
     /// <inheritdoc/>
-    public override int Monster1Poison() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,88A") : this.Monster1RoadPoison();
+    public override int Monster1Poison() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,88A") : this.Monster1RoadPoison();
 
     /// <inheritdoc/>
-    public override int Monster1PoisonNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,888") : this.Monster1RoadPoisonNeed();
+    public override int Monster1PoisonNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,888") : this.Monster1RoadPoisonNeed();
 
     /// <inheritdoc/>
-    public override int Monster1Sleep() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,86C") : this.Monster1RoadSleep();
+    public override int Monster1Sleep() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,86C") : this.Monster1RoadSleep();
 
     /// <inheritdoc/>
-    public override int Monster1SleepNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,86A") : this.Monster1RoadSleepNeed();
+    public override int Monster1SleepNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,86A") : this.Monster1RoadSleepNeed();
 
     /// <inheritdoc/>
-    public override int Monster1Para() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,886") : this.Monster1RoadPara();
+    public override int Monster1Para() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,886") : this.Monster1RoadPara();
 
     /// <inheritdoc/>
-    public override int Monster1ParaNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,880") : this.Monster1RoadParaNeed();
+    public override int Monster1ParaNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,880") : this.Monster1RoadParaNeed();
 
     /// <inheritdoc/>
-    public override int Monster1Blast() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,D4A") : this.Monster1RoadBlast();
+    public override int Monster1Blast() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,D4A") : this.Monster1RoadBlast();
 
     /// <inheritdoc/>
-    public override int Monster1BlastNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,D48") : this.Monster1RoadBlastNeed();
+    public override int Monster1BlastNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,D48") : this.Monster1RoadBlastNeed();
 
     /// <inheritdoc/>
-    public override int Monster1Stun() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,872") : this.Monster1RoadStun();
+    public override int Monster1Stun() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,872") : this.Monster1RoadStun();
 
     /// <inheritdoc/>
-    public override int Monster1StunNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,A74") : this.Monster1RoadStunNeed();
+    public override int Monster1StunNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,A74") : this.Monster1RoadStunNeed();
 
     /// <inheritdoc/>
     public override string Monster1Size() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+2AFA784").ToString(CultureInfo.InvariantCulture) + "%" : this.Monster1RoadSize();
 
     /// <inheritdoc/>
-    public override string Monster2AtkMult() => this.GetNotRoad() ? this.M.ReadFloat("mhfo-hd.dll+0E37DD38,1788").ToString(CultureInfo.InvariantCulture) : this.Monster2RoadAtkMult();
+    public override string Monster2AtkMult() => this.GetNotRoad() ? this.M.ReadFloat("mhfo-hd.dll+DC6BB9C,1788").ToString(CultureInfo.InvariantCulture) : this.Monster2RoadAtkMult();
 
     /// <inheritdoc/>
-    public override decimal Monster2DefMult() => this.GetNotRoad() ? (decimal)this.M.ReadFloat("mhfo-hd.dll+0E37DD38,178C", string.Empty, false) : this.Monster2RoadDefMult();
+    public override decimal Monster2DefMult() => this.GetNotRoad() ? (decimal)this.M.ReadFloat("mhfo-hd.dll+DC6BB9C,178C", string.Empty, false) : this.Monster2RoadDefMult();
 
     /// <inheritdoc/>
-    public override int Monster2Poison() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,177A") : this.Monster2RoadPoison();
+    public override int Monster2Poison() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,177A") : this.Monster2RoadPoison();
 
     /// <inheritdoc/>
-    public override int Monster2PoisonNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1778") : this.Monster2RoadPoisonNeed();
+    public override int Monster2PoisonNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1778") : this.Monster2RoadPoisonNeed();
 
     /// <inheritdoc/>
-    public override int Monster2Sleep() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,175C") : this.Monster2RoadSleep();
+    public override int Monster2Sleep() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,175C") : this.Monster2RoadSleep();
 
     /// <inheritdoc/>
-    public override int Monster2SleepNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,175A") : this.Monster2RoadSleepNeed();
+    public override int Monster2SleepNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,175A") : this.Monster2RoadSleepNeed();
 
     /// <inheritdoc/>
-    public override int Monster2Para() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1776") : this.Monster2RoadPara();
+    public override int Monster2Para() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1776") : this.Monster2RoadPara();
 
     /// <inheritdoc/>
-    public override int Monster2ParaNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1770") : this.Monster2RoadParaNeed();
+    public override int Monster2ParaNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1770") : this.Monster2RoadParaNeed();
 
     /// <inheritdoc/>
-    public override int Monster2Blast() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1C3A") : this.Monster2RoadBlast();
+    public override int Monster2Blast() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1C3A") : this.Monster2RoadBlast();
 
     /// <inheritdoc/>
-    public override int Monster2BlastNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1C38") : this.Monster2RoadBlastNeed();
+    public override int Monster2BlastNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1C38") : this.Monster2RoadBlastNeed();
 
     /// <inheritdoc/>
-    public override int Monster2Stun() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1762") : this.Monster2RoadStun();
+    public override int Monster2Stun() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1762") : this.Monster2RoadStun();
 
     /// <inheritdoc/>
-    public override int Monster2StunNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+0E37DD38,1964") : this.Monster2RoadStunNeed();
+    public override int Monster2StunNeed() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+DC6BB9C,1964") : this.Monster2RoadStunNeed();
 
     /// <inheritdoc/>
     public override string Monster2Size() => this.GetNotRoad() ? this.M.Read2Byte("mhfo-hd.dll+2AFA784").ToString(CultureInfo.InvariantCulture) + "%" : this.Monster2RoadSize();
@@ -457,7 +457,7 @@ public sealed class AddressModelHGE : AddressModel
 
     /// <inheritdoc/>
     /// public override int GuildFoodSkill() => this.M.Read2Byte("mhfo-hd.dll+E7FED00");
-    /// 
+    ///
     /// <inheritdoc/>
     public override int GuildFoodSkill() => this.M.Read2Byte("mhfo-hd.dll+E6CCD9E");
 
