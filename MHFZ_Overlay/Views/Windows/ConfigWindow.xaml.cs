@@ -851,6 +851,96 @@ public partial class ConfigWindow : FluentWindow
     }
 
     /// <summary>
+    /// Scales all UI element positions from the 1360x768 reference layout to the user's current MaxResolution setting.
+    /// </summary>
+    private void ScalePositionsToResolution_Click(object sender, RoutedEventArgs e)
+    {
+        var result = MessageBox.Show(
+            "This will overwrite all element positions scaled to your current resolution setting. Any custom positions will be lost. Are you sure?",
+            Messages.InfoTitle,
+            MessageBoxButton.YesNo,
+            MessageBoxImage.Warning,
+            MessageBoxResult.No);
+
+        if (result != MessageBoxResult.Yes)
+        {
+            return;
+        }
+
+        var s = (Settings)Application.Current.TryFindResource("Settings");
+        const double refWidth = 1360.0;
+        const double refHeight = 768.0;
+        double scaleX = s.MaxResolutionWidth / refWidth;
+        double scaleY = s.MaxResolutionHeight / refHeight;
+        double ScaleX(double v) => Math.Floor(v * scaleX);
+        double ScaleY(double v) => Math.Floor(v * scaleY);
+
+        s.MonsterStatusInfoX = ScaleX(1087); s.MonsterStatusInfoY = ScaleY(188);
+        s.SharpnessInfoX = ScaleX(105); s.SharpnessInfoY = ScaleY(62);
+        s.DualSwordsSharpensX = ScaleX(105); s.DualSwordsSharpensY = ScaleY(102);
+        s.Monster1PartX = ScaleX(8); s.Monster1PartY = ScaleY(685);
+        s.Monster1IconX = ScaleX(8); s.Monster1IconY = ScaleY(260);
+        s.Monster1HealthBarX = ScaleX(900); s.Monster1HealthBarY = ScaleY(40);
+        s.Monster2HealthBarX = s.Monster1HealthBarX; s.Monster2HealthBarY = s.Monster1HealthBarY + 70;
+        s.Monster3HealthBarX = s.Monster1HealthBarX; s.Monster3HealthBarY = s.Monster1HealthBarY + 140;
+        s.Monster4HealthBarX = s.Monster1HealthBarX; s.Monster4HealthBarY = s.Monster1HealthBarY + 210;
+        s.MonsterAtkMultX = ScaleX(1140); s.MonsterAtkMultY = ScaleY(200);
+        s.MonsterDefrateX = s.MonsterAtkMultX; s.MonsterDefrateY = s.MonsterAtkMultY + 30;
+        s.MonsterSizeX = s.MonsterAtkMultX; s.MonsterSizeY = s.MonsterAtkMultY + 60;
+        s.MonsterPoisonX = ScaleX(1060); s.MonsterPoisonY = ScaleY(310);
+        s.MonsterSleepX = s.MonsterPoisonX; s.MonsterSleepY = s.MonsterPoisonY + 40;
+        s.MonsterParaX = s.MonsterPoisonX; s.MonsterParaY = s.MonsterPoisonY + 80;
+        s.MonsterBlastX = s.MonsterPoisonX; s.MonsterBlastY = s.MonsterPoisonY + 120;
+        s.MonsterStunX = s.MonsterPoisonX; s.MonsterStunY = s.MonsterPoisonY + 160;
+        s.TimerX = ScaleX(5); s.TimerY = ScaleY(400);
+        s.PersonalBestX = s.TimerX; s.PersonalBestY = s.TimerY + 40;
+        s.ActionsPerMinuteX = s.TimerX; s.ActionsPerMinuteY = s.TimerY + 80;
+        s.PlayerDPSX = s.TimerX; s.PlayerDPSY = s.TimerY + 120;
+        s.HitCountX = s.TimerX; s.HitCountY = s.TimerY + 160;
+        s.PlayerAtkX = s.TimerX; s.PlayerAtkY = s.TimerY + 200;
+        s.TotalHitsTakenBlockedX = s.TimerX; s.TotalHitsTakenBlockedY = s.TimerY + 240;
+        s.DamageNumbersX = ScaleX(700); s.DamageNumbersY = ScaleY(400);
+        s.MapX = ScaleX(1000); s.MapY = ScaleY(410);
+        s.FrameCounterX = ScaleX(8); s.FrameCounterY = ScaleY(400);
+        s.PlayerAttackGraphX = ScaleX(740); s.PlayerAttackGraphY = ScaleY(30);
+        s.PlayerDPSGraphX = ScaleX(8); s.PlayerDPSGraphY = ScaleY(240);
+        s.PlayerHitsPerSecondGraphX = ScaleX(430); s.PlayerHitsPerSecondGraphY = ScaleY(30);
+        s.PlayerAPMGraphX = ScaleX(510); s.PlayerAPMGraphY = ScaleY(530);
+        s.KBMLayoutX = ScaleX(820); s.KBMLayoutY = ScaleY(610);
+        s.GamepadX = ScaleX(160); s.GamepadY = ScaleY(550);
+        s.PlayerInputHorizontalGridX = ScaleX(50); s.PlayerInputHorizontalGridY = ScaleY(100);
+        s.PlayerInputVerticalGridX = 0; s.PlayerInputVerticalGridY = 0;
+        s.Monster1OverviewX = 0; s.Monster1OverviewY = 0;
+        s.Monster2OverviewX = 0; s.Monster2OverviewY = 0;
+        s.Monster3OverviewX = 0; s.Monster3OverviewY = 0;
+        s.Monster4OverviewX = 0; s.Monster4OverviewY = 0;
+        s.OverlayModeWatermarkX = ScaleX(8); s.OverlayModeWatermarkY = ScaleY(360);
+        s.QuestIDX = ScaleX(380); s.QuestIDY = ScaleY(50);
+        s.QuestAttemptsX = ScaleX(380); s.QuestAttemptsY = ScaleY(90);
+        s.PersonalBestTimePercentX = ScaleX(380); s.PersonalBestTimePercentY = ScaleY(130);
+        s.PersonalBestAttemptsX = ScaleX(380); s.PersonalBestAttemptsY = ScaleY(170);
+        s.SessionTimeX = ScaleX(5); s.SessionTimeY = ScaleY(180);
+        s.PlayerPositionX = ScaleX(5); s.PlayerPositionY = ScaleY(140);
+        s.DivaSongTimerX = ScaleX(5); s.DivaSongTimerY = ScaleY(100);
+        s.GuildFoodTimerX = ScaleX(5); s.GuildFoodTimerY = ScaleY(60);
+        s.LocationTextX = ScaleX(160); s.LocationTextY = ScaleY(600);
+        s.QuestNameX = ScaleX(160); s.QuestNameY = ScaleY(520);
+        s.ZenithGauntletMonstersX = 0; s.ZenithGauntletMonstersY = 0;
+        s.MusouGauntletMonstersX = 0; s.MusouGauntletMonstersY = 0;
+        s.SolsticeGauntletMonstersX = 0; s.SolsticeGauntletMonstersY = 0;
+        s.GauntletProgressX = 0; s.GauntletProgressY = 0;
+        s.BingoProgressX = 0; s.BingoProgressY = 0;
+
+        s.Save();
+
+        MessageBox.Show(
+            "Element positions have been scaled to your resolution. Restart the overlay to apply.",
+            Messages.InfoTitle,
+            MessageBoxButton.OK,
+            MessageBoxImage.Information);
+    }
+
+    /// <summary>
     /// Handles the Click event of the ConfigureButton control.
     /// </summary>
     /// <param name="sender">The source of the event.</param>

@@ -9,20 +9,20 @@
 //------------------------------------------------------------------------------
 
 namespace MHFZ_Overlay {
-    
-    
+
+
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.10.0.0")]
     public sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
+
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-        
+
         public static Settings Default {
             get {
                 return defaultInstance;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -34,7 +34,7 @@ namespace MHFZ_Overlay {
                 this["EnableDamageNumbers"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -46,7 +46,7 @@ namespace MHFZ_Overlay {
                 this["IsRoadOverride"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -58,7 +58,7 @@ namespace MHFZ_Overlay {
                 this["AlwaysShowMonsterInfo"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#f38ba8")]
@@ -70,7 +70,7 @@ namespace MHFZ_Overlay {
                 this["Monster1BarColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#f38ba8")]
@@ -82,7 +82,7 @@ namespace MHFZ_Overlay {
                 this["Monster2BarColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#f38ba8")]
@@ -94,7 +94,7 @@ namespace MHFZ_Overlay {
                 this["Monster3BarColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#f38ba8")]
@@ -106,7 +106,7 @@ namespace MHFZ_Overlay {
                 this["Monster4BarColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#cba6f7")]
@@ -118,7 +118,7 @@ namespace MHFZ_Overlay {
                 this["MonsterPoisonBarColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#a6e3a1")]
@@ -130,7 +130,7 @@ namespace MHFZ_Overlay {
                 this["MonsterBlastBarColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#74c7ec")]
@@ -142,7 +142,7 @@ namespace MHFZ_Overlay {
                 this["MonsterSleepBarColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#f9e2af")]
@@ -154,7 +154,7 @@ namespace MHFZ_Overlay {
                 this["MonsterParaBarColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#7f849c")]
@@ -166,7 +166,7 @@ namespace MHFZ_Overlay {
                 this["MonsterStunBarColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Transparent")]
@@ -178,7 +178,7 @@ namespace MHFZ_Overlay {
                 this["HPBackGroundColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Transparent")]
@@ -190,7 +190,7 @@ namespace MHFZ_Overlay {
                 this["TextBackGroundColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#f5e0dc")]
@@ -202,7 +202,7 @@ namespace MHFZ_Overlay {
                 this["TextColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1087")]
@@ -214,7 +214,7 @@ namespace MHFZ_Overlay {
                 this["MonsterStatusInfoX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("188")]
@@ -226,7 +226,7 @@ namespace MHFZ_Overlay {
                 this["MonsterStatusInfoY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -238,7 +238,7 @@ namespace MHFZ_Overlay {
                 this["MonsterStatusInfoShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("16")]
@@ -250,7 +250,7 @@ namespace MHFZ_Overlay {
                 this["FontSize"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -262,7 +262,7 @@ namespace MHFZ_Overlay {
                 this["EnableDamageNumbersMulticolor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -274,7 +274,7 @@ namespace MHFZ_Overlay {
                 this["EnableEHPNumbers"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -286,7 +286,7 @@ namespace MHFZ_Overlay {
                 this["EnableRichPresence"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
@@ -298,7 +298,7 @@ namespace MHFZ_Overlay {
                 this["DiscordClientID"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
@@ -310,7 +310,7 @@ namespace MHFZ_Overlay {
                 this["DiscordServerInvite"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -322,7 +322,7 @@ namespace MHFZ_Overlay {
                 this["EnableCurrentHPPercentage"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -334,7 +334,7 @@ namespace MHFZ_Overlay {
                 this["EnableTimeLeftPercentage"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#fffab387")]
@@ -346,7 +346,7 @@ namespace MHFZ_Overlay {
                 this["DamageNumbersColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -358,7 +358,7 @@ namespace MHFZ_Overlay {
                 this["EnableSharpness"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("105")]
@@ -370,7 +370,7 @@ namespace MHFZ_Overlay {
                 this["SharpnessInfoX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("62")]
@@ -382,7 +382,7 @@ namespace MHFZ_Overlay {
                 this["SharpnessInfoY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -394,7 +394,7 @@ namespace MHFZ_Overlay {
                 this["PartThresholdShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("8")]
@@ -406,7 +406,7 @@ namespace MHFZ_Overlay {
                 this["Monster1PartX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("685")]
@@ -418,7 +418,7 @@ namespace MHFZ_Overlay {
                 this["Monster1PartY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -430,7 +430,7 @@ namespace MHFZ_Overlay {
                 this["AlwaysShowPlayerInfo"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -442,7 +442,7 @@ namespace MHFZ_Overlay {
                 this["EnableSharpnessPercentage"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("HunterName")]
@@ -454,7 +454,7 @@ namespace MHFZ_Overlay {
                 this["HunterName"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("GuildName")]
@@ -466,7 +466,7 @@ namespace MHFZ_Overlay {
                 this["GuildName"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -478,7 +478,7 @@ namespace MHFZ_Overlay {
                 this["TimerInfoShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5")]
@@ -490,7 +490,7 @@ namespace MHFZ_Overlay {
                 this["TimerX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("400")]
@@ -502,7 +502,7 @@ namespace MHFZ_Overlay {
                 this["TimerY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -514,7 +514,7 @@ namespace MHFZ_Overlay {
                 this["HitCountShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5")]
@@ -526,7 +526,7 @@ namespace MHFZ_Overlay {
                 this["HitCountX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("560")]
@@ -538,7 +538,7 @@ namespace MHFZ_Overlay {
                 this["HitCountY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -550,7 +550,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAtkShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5")]
@@ -562,7 +562,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAtkX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("600")]
@@ -574,7 +574,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAtkY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Time Left")]
@@ -586,7 +586,7 @@ namespace MHFZ_Overlay {
                 this["TimerMode"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -598,7 +598,7 @@ namespace MHFZ_Overlay {
                 this["MonsterAtkMultShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1140")]
@@ -610,7 +610,7 @@ namespace MHFZ_Overlay {
                 this["MonsterAtkMultX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("200")]
@@ -622,7 +622,7 @@ namespace MHFZ_Overlay {
                 this["MonsterAtkMultY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -634,7 +634,7 @@ namespace MHFZ_Overlay {
                 this["MonsterDefrateShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1140")]
@@ -646,7 +646,7 @@ namespace MHFZ_Overlay {
                 this["MonsterDefrateX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("230")]
@@ -658,7 +658,7 @@ namespace MHFZ_Overlay {
                 this["MonsterDefrateY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -670,7 +670,7 @@ namespace MHFZ_Overlay {
                 this["MonsterSizeShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1140")]
@@ -682,7 +682,7 @@ namespace MHFZ_Overlay {
                 this["MonsterSizeX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("260")]
@@ -694,7 +694,7 @@ namespace MHFZ_Overlay {
                 this["MonsterSizeY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -706,7 +706,7 @@ namespace MHFZ_Overlay {
                 this["MonsterPoisonShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1060")]
@@ -718,7 +718,7 @@ namespace MHFZ_Overlay {
                 this["MonsterPoisonX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("310")]
@@ -730,7 +730,7 @@ namespace MHFZ_Overlay {
                 this["MonsterPoisonY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -742,7 +742,7 @@ namespace MHFZ_Overlay {
                 this["MonsterSleepShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1060")]
@@ -754,7 +754,7 @@ namespace MHFZ_Overlay {
                 this["MonsterSleepX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("350")]
@@ -766,7 +766,7 @@ namespace MHFZ_Overlay {
                 this["MonsterSleepY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -778,7 +778,7 @@ namespace MHFZ_Overlay {
                 this["MonsterParaShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1060")]
@@ -790,7 +790,7 @@ namespace MHFZ_Overlay {
                 this["MonsterParaX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("390")]
@@ -802,7 +802,7 @@ namespace MHFZ_Overlay {
                 this["MonsterParaY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -814,7 +814,7 @@ namespace MHFZ_Overlay {
                 this["MonsterBlastShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1060")]
@@ -826,7 +826,7 @@ namespace MHFZ_Overlay {
                 this["MonsterBlastX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("430")]
@@ -838,7 +838,7 @@ namespace MHFZ_Overlay {
                 this["MonsterBlastY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -850,7 +850,7 @@ namespace MHFZ_Overlay {
                 this["MonsterStunShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1060")]
@@ -862,7 +862,7 @@ namespace MHFZ_Overlay {
                 this["MonsterStunX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("470")]
@@ -874,7 +874,7 @@ namespace MHFZ_Overlay {
                 this["MonsterStunY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("700")]
@@ -886,7 +886,7 @@ namespace MHFZ_Overlay {
                 this["DamageNumbersX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("400")]
@@ -898,7 +898,7 @@ namespace MHFZ_Overlay {
                 this["DamageNumbersY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("500")]
@@ -910,7 +910,7 @@ namespace MHFZ_Overlay {
                 this["DamageNumbersAreaWidth"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("250")]
@@ -922,7 +922,7 @@ namespace MHFZ_Overlay {
                 this["DamageNumbersAreaHeight"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -934,7 +934,7 @@ namespace MHFZ_Overlay {
                 this["EnableHighestAtkColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -946,7 +946,7 @@ namespace MHFZ_Overlay {
                 this["Monster1IconShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("8")]
@@ -958,7 +958,7 @@ namespace MHFZ_Overlay {
                 this["Monster1IconX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("260")]
@@ -970,7 +970,7 @@ namespace MHFZ_Overlay {
                 this["Monster1IconY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Time Left")]
@@ -982,7 +982,7 @@ namespace MHFZ_Overlay {
                 this["DiscordTimerMode"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Never")]
@@ -994,7 +994,7 @@ namespace MHFZ_Overlay {
                 this["DiscordRoadTimerReset"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1006,7 +1006,7 @@ namespace MHFZ_Overlay {
                 this["DiscordQuestNameShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1018,7 +1018,7 @@ namespace MHFZ_Overlay {
                 this["DiscordArmorSetShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Automatic")]
@@ -1030,7 +1030,7 @@ namespace MHFZ_Overlay {
                 this["EnableCaravanOverride"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -1042,7 +1042,7 @@ namespace MHFZ_Overlay {
                 this["EnableCaravanScore"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1054,7 +1054,7 @@ namespace MHFZ_Overlay {
                 this["Monster1HealthBarShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("900")]
@@ -1066,7 +1066,7 @@ namespace MHFZ_Overlay {
                 this["Monster1HealthBarX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("40")]
@@ -1078,7 +1078,7 @@ namespace MHFZ_Overlay {
                 this["Monster1HealthBarY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1090,7 +1090,7 @@ namespace MHFZ_Overlay {
                 this["Monster2HealthBarShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("900")]
@@ -1102,7 +1102,7 @@ namespace MHFZ_Overlay {
                 this["Monster2HealthBarX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("110")]
@@ -1114,7 +1114,7 @@ namespace MHFZ_Overlay {
                 this["Monster2HealthBarY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -1126,7 +1126,7 @@ namespace MHFZ_Overlay {
                 this["Monster3HealthBarShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("900")]
@@ -1138,7 +1138,7 @@ namespace MHFZ_Overlay {
                 this["Monster3HealthBarX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("180")]
@@ -1150,7 +1150,7 @@ namespace MHFZ_Overlay {
                 this["Monster3HealthBarY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -1162,7 +1162,7 @@ namespace MHFZ_Overlay {
                 this["Monster4HealthBarShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("900")]
@@ -1174,7 +1174,7 @@ namespace MHFZ_Overlay {
                 this["Monster4HealthBarX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("250")]
@@ -1186,7 +1186,7 @@ namespace MHFZ_Overlay {
                 this["Monster4HealthBarY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Image")]
@@ -1198,7 +1198,7 @@ namespace MHFZ_Overlay {
                 this["TextFormatExport"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Male")]
@@ -1210,7 +1210,7 @@ namespace MHFZ_Overlay {
                 this["GenderExport"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -1222,7 +1222,7 @@ namespace MHFZ_Overlay {
                 this["GouBoostExport"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("11")]
@@ -1234,7 +1234,7 @@ namespace MHFZ_Overlay {
                 this["GSRUnlocksExport"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -1246,7 +1246,7 @@ namespace MHFZ_Overlay {
                 this["Enable11GSR999"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -1258,7 +1258,7 @@ namespace MHFZ_Overlay {
                 this["EnableMetadataExport"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
@@ -1270,7 +1270,7 @@ namespace MHFZ_Overlay {
                 this["GearDescriptionExport"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -1282,7 +1282,7 @@ namespace MHFZ_Overlay {
                 this["EnableMap"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("300")]
@@ -1294,7 +1294,7 @@ namespace MHFZ_Overlay {
                 this["MapAreaWidth"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("300")]
@@ -1306,7 +1306,7 @@ namespace MHFZ_Overlay {
                 this["MapAreaHeight"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1000")]
@@ -1318,7 +1318,7 @@ namespace MHFZ_Overlay {
                 this["MapX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("410")]
@@ -1330,7 +1330,7 @@ namespace MHFZ_Overlay {
                 this["MapY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Priority")]
@@ -1342,7 +1342,7 @@ namespace MHFZ_Overlay {
                 this["ArmorSkillsInfo"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Sword and Shield")]
@@ -1354,7 +1354,7 @@ namespace MHFZ_Overlay {
                 this["MotionValuesInfo"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Element/Status/Bloat")]
@@ -1366,7 +1366,7 @@ namespace MHFZ_Overlay {
                 this["WeaponTypeInfo"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("About")]
@@ -1378,7 +1378,7 @@ namespace MHFZ_Overlay {
                 this["GuildOptionInfo"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("About")]
@@ -1390,7 +1390,7 @@ namespace MHFZ_Overlay {
                 this["CaravanOptionInfo"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Partner")]
@@ -1402,7 +1402,7 @@ namespace MHFZ_Overlay {
                 this["CompanionOptionInfo"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Ashen Lao-Shan Lung")]
@@ -1414,7 +1414,7 @@ namespace MHFZ_Overlay {
                 this["GuildCardBackground"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1426,7 +1426,7 @@ namespace MHFZ_Overlay {
                 this["EnableUpdateNotifier"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("https://xl3lackout.github.io/MHFZ-Ferias-English-Project/")]
@@ -1438,7 +1438,7 @@ namespace MHFZ_Overlay {
                 this["FeriasVersionLink"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Automatic")]
@@ -1450,7 +1450,7 @@ namespace MHFZ_Overlay {
                 this["MaxFaintsOverride"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1462,7 +1462,7 @@ namespace MHFZ_Overlay {
                 this["EnableDamageMeter"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#1e1e2e")]
@@ -1474,7 +1474,7 @@ namespace MHFZ_Overlay {
                 this["DamageMeterBackGroundColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Red")]
@@ -1486,7 +1486,7 @@ namespace MHFZ_Overlay {
                 this["DamagerMeter1PColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Cyan")]
@@ -1498,7 +1498,7 @@ namespace MHFZ_Overlay {
                 this["DamageMeter2PColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Yellow")]
@@ -1510,7 +1510,7 @@ namespace MHFZ_Overlay {
                 this["DamageMeter3PColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Purple")]
@@ -1522,7 +1522,7 @@ namespace MHFZ_Overlay {
                 this["DamageMeter4PColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Total Damage")]
@@ -1534,7 +1534,7 @@ namespace MHFZ_Overlay {
                 this["DamageMeterMode"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -1546,7 +1546,7 @@ namespace MHFZ_Overlay {
                 this["FrameCounterShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("8")]
@@ -1558,7 +1558,7 @@ namespace MHFZ_Overlay {
                 this["FrameCounterX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("400")]
@@ -1570,7 +1570,7 @@ namespace MHFZ_Overlay {
                 this["FrameCounterY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -1582,7 +1582,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAttackGraphShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("740")]
@@ -1594,7 +1594,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAttackGraphX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("30")]
@@ -1606,7 +1606,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAttackGraphY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1618,7 +1618,7 @@ namespace MHFZ_Overlay {
                 this["EnableQuestLogging"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
@@ -1630,7 +1630,7 @@ namespace MHFZ_Overlay {
                 this["GameFolderPath"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5")]
@@ -1642,7 +1642,7 @@ namespace MHFZ_Overlay {
                 this["PlayerDPSX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("520")]
@@ -1654,7 +1654,7 @@ namespace MHFZ_Overlay {
                 this["PlayerDPSY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1666,7 +1666,7 @@ namespace MHFZ_Overlay {
                 this["EnableHighestDPSColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -1678,7 +1678,7 @@ namespace MHFZ_Overlay {
                 this["DiscordServerID"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -1690,7 +1690,7 @@ namespace MHFZ_Overlay {
                 this["PlayerNationalityIndex"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1702,7 +1702,7 @@ namespace MHFZ_Overlay {
                 this["DamagePerSecondShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1714,7 +1714,7 @@ namespace MHFZ_Overlay {
                 this["ProgressBarIconsShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1726,7 +1726,7 @@ namespace MHFZ_Overlay {
                 this["OverlayStatIconShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1738,7 +1738,7 @@ namespace MHFZ_Overlay {
                 this["MonsterPartsIconShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1750,7 +1750,7 @@ namespace MHFZ_Overlay {
                 this["EnableHighestMonsterAttackMultiplierColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1762,7 +1762,7 @@ namespace MHFZ_Overlay {
                 this["EnableLowestMonsterDefrateColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1774,7 +1774,7 @@ namespace MHFZ_Overlay {
                 this["EnableDamageNumbersSize"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1786,7 +1786,7 @@ namespace MHFZ_Overlay {
                 this["EnableDamageNumbersFlash"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1798,7 +1798,7 @@ namespace MHFZ_Overlay {
                 this["EnableQuestPaceColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1810,7 +1810,7 @@ namespace MHFZ_Overlay {
                 this["EnableAverageHitsPerSecondColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1822,7 +1822,7 @@ namespace MHFZ_Overlay {
                 this["HitsPerSecondShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1834,7 +1834,7 @@ namespace MHFZ_Overlay {
                 this["TotalHitsTakenBlockedShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1846,7 +1846,7 @@ namespace MHFZ_Overlay {
                 this["TotalHitsTakenBlockedPerSecondShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1858,7 +1858,7 @@ namespace MHFZ_Overlay {
                 this["EnableTotalHitsTakenBlockedColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5")]
@@ -1870,7 +1870,7 @@ namespace MHFZ_Overlay {
                 this["TotalHitsTakenBlockedX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("640")]
@@ -1882,7 +1882,7 @@ namespace MHFZ_Overlay {
                 this["TotalHitsTakenBlockedY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -1894,7 +1894,7 @@ namespace MHFZ_Overlay {
                 this["KBMLayoutShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("820")]
@@ -1906,7 +1906,7 @@ namespace MHFZ_Overlay {
                 this["KBMLayoutX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("610")]
@@ -1918,7 +1918,7 @@ namespace MHFZ_Overlay {
                 this["KBMLayoutY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -1930,7 +1930,7 @@ namespace MHFZ_Overlay {
                 this["GamepadShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("160")]
@@ -1942,7 +1942,7 @@ namespace MHFZ_Overlay {
                 this["GamepadX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("550")]
@@ -1954,7 +1954,7 @@ namespace MHFZ_Overlay {
                 this["GamepadY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -1966,7 +1966,7 @@ namespace MHFZ_Overlay {
                 this["EnableInputLogging"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1360")]
@@ -1978,19 +1978,19 @@ namespace MHFZ_Overlay {
                 this["MaxResolutionWidth"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("768")]
-        public string MaxResolutionHeight {
+        public int MaxResolutionHeight {
             get {
-                return ((string)(this["MaxResolutionHeight"]));
+                return ((int)(this["MaxResolutionHeight"]));
             }
             set {
                 this["MaxResolutionHeight"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -2002,7 +2002,7 @@ namespace MHFZ_Overlay {
                 this["ActionsPerMinuteShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5")]
@@ -2014,7 +2014,7 @@ namespace MHFZ_Overlay {
                 this["ActionsPerMinuteX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("480")]
@@ -2026,7 +2026,7 @@ namespace MHFZ_Overlay {
                 this["ActionsPerMinuteY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -2038,7 +2038,7 @@ namespace MHFZ_Overlay {
                 this["EnableAverageActionsPerMinuteColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -2050,7 +2050,7 @@ namespace MHFZ_Overlay {
                 this["PlayerInputHorizontalGridShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("50")]
@@ -2062,7 +2062,7 @@ namespace MHFZ_Overlay {
                 this["PlayerInputHorizontalGridX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("100")]
@@ -2074,7 +2074,7 @@ namespace MHFZ_Overlay {
                 this["PlayerInputHorizontalGridY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -2086,7 +2086,7 @@ namespace MHFZ_Overlay {
                 this["PlayerInputVerticalGridShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -2098,7 +2098,7 @@ namespace MHFZ_Overlay {
                 this["PlayerInputVerticalGridX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -2110,7 +2110,7 @@ namespace MHFZ_Overlay {
                 this["PlayerInputVerticalGridY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -2122,7 +2122,7 @@ namespace MHFZ_Overlay {
                 this["Monster1OverviewShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -2134,7 +2134,7 @@ namespace MHFZ_Overlay {
                 this["Monster1OverviewX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -2146,7 +2146,7 @@ namespace MHFZ_Overlay {
                 this["Monster1OverviewY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -2158,7 +2158,7 @@ namespace MHFZ_Overlay {
                 this["Monster2OverviewShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -2170,7 +2170,7 @@ namespace MHFZ_Overlay {
                 this["Monster2OverviewX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -2182,7 +2182,7 @@ namespace MHFZ_Overlay {
                 this["Monster2OverviewY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -2194,7 +2194,7 @@ namespace MHFZ_Overlay {
                 this["Monster3OverviewShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -2206,7 +2206,7 @@ namespace MHFZ_Overlay {
                 this["Monster3OverviewX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -2218,7 +2218,7 @@ namespace MHFZ_Overlay {
                 this["Monster3OverviewY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -2230,7 +2230,7 @@ namespace MHFZ_Overlay {
                 this["Monster4OverviewShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -2242,7 +2242,7 @@ namespace MHFZ_Overlay {
                 this["Monster4OverviewX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -2254,7 +2254,7 @@ namespace MHFZ_Overlay {
                 this["Monster4OverviewY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -2266,7 +2266,7 @@ namespace MHFZ_Overlay {
                 this["OverlayModeWatermarkShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("8")]
@@ -2278,7 +2278,7 @@ namespace MHFZ_Overlay {
                 this["OverlayModeWatermarkX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("360")]
@@ -2290,7 +2290,7 @@ namespace MHFZ_Overlay {
                 this["OverlayModeWatermarkY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -2302,7 +2302,7 @@ namespace MHFZ_Overlay {
                 this["QuestIDShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("380")]
@@ -2314,7 +2314,7 @@ namespace MHFZ_Overlay {
                 this["QuestIDX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("50")]
@@ -2326,7 +2326,7 @@ namespace MHFZ_Overlay {
                 this["QuestIDY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -2338,7 +2338,7 @@ namespace MHFZ_Overlay {
                 this["EnableMonsterRenders"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -2350,7 +2350,7 @@ namespace MHFZ_Overlay {
                 this["EnableMonsterHPBarsAutomaticColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#1e1e2e")]
@@ -2362,7 +2362,7 @@ namespace MHFZ_Overlay {
                 this["Monster1BarStrokeColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#1e1e2e")]
@@ -2374,7 +2374,7 @@ namespace MHFZ_Overlay {
                 this["Monster2BarStrokeColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#1e1e2e")]
@@ -2386,7 +2386,7 @@ namespace MHFZ_Overlay {
                 this["Monster3BarStrokeColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#1e1e2e")]
@@ -2398,7 +2398,7 @@ namespace MHFZ_Overlay {
                 this["Monster4BarStrokeColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#1e1e2e")]
@@ -2410,7 +2410,7 @@ namespace MHFZ_Overlay {
                 this["MonsterPoisonStrokeColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#1e1e2e")]
@@ -2422,7 +2422,7 @@ namespace MHFZ_Overlay {
                 this["MonsterSleepStrokeColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#1e1e2e")]
@@ -2434,7 +2434,7 @@ namespace MHFZ_Overlay {
                 this["MonsterParaStrokeColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#1e1e2e")]
@@ -2446,7 +2446,7 @@ namespace MHFZ_Overlay {
                 this["MonsterBlastStrokeColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#1e1e2e")]
@@ -2458,7 +2458,7 @@ namespace MHFZ_Overlay {
                 this["MonsterStunStrokeColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -2470,7 +2470,7 @@ namespace MHFZ_Overlay {
                 this["PlayerDPSGraphShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("8")]
@@ -2482,7 +2482,7 @@ namespace MHFZ_Overlay {
                 this["PlayerDPSGraphX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("240")]
@@ -2494,7 +2494,7 @@ namespace MHFZ_Overlay {
                 this["PlayerDPSGraphY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -2506,7 +2506,7 @@ namespace MHFZ_Overlay {
                 this["PlayerHitsPerSecondGraphShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("430")]
@@ -2518,7 +2518,7 @@ namespace MHFZ_Overlay {
                 this["PlayerHitsPerSecondGraphX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("30")]
@@ -2530,7 +2530,7 @@ namespace MHFZ_Overlay {
                 this["PlayerHitsPerSecondGraphY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -2542,7 +2542,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAPMGraphShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("510")]
@@ -2554,7 +2554,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAPMGraphX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("530")]
@@ -2566,7 +2566,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAPMGraphY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#a6e3a1")]
@@ -2578,7 +2578,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAttackGraphColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#001e1e2e")]
@@ -2590,7 +2590,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAttackGraphBackground"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#f38ba8")]
@@ -2602,7 +2602,7 @@ namespace MHFZ_Overlay {
                 this["PlayerDPSGraphColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#001e1e2e")]
@@ -2614,7 +2614,7 @@ namespace MHFZ_Overlay {
                 this["PlayerDPSGraphBackground"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#f9e2af")]
@@ -2626,7 +2626,7 @@ namespace MHFZ_Overlay {
                 this["PlayerHitsPerSecondGraphColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#001e1e2e")]
@@ -2638,7 +2638,7 @@ namespace MHFZ_Overlay {
                 this["PlayerHitsPerSecondGraphBackground"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#cba6f7")]
@@ -2650,7 +2650,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAPMGraphColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#001e1e2e")]
@@ -2662,7 +2662,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAPMGraphBackground"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -2674,7 +2674,7 @@ namespace MHFZ_Overlay {
                 this["PersonalBestShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5")]
@@ -2686,7 +2686,7 @@ namespace MHFZ_Overlay {
                 this["PersonalBestX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("440")]
@@ -2698,7 +2698,7 @@ namespace MHFZ_Overlay {
                 this["PersonalBestY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
@@ -2710,7 +2710,7 @@ namespace MHFZ_Overlay {
                 this["DatabaseFilePath"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -2722,7 +2722,7 @@ namespace MHFZ_Overlay {
                 this["SessionTimeShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5")]
@@ -2734,7 +2734,7 @@ namespace MHFZ_Overlay {
                 this["SessionTimeX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("180")]
@@ -2746,7 +2746,7 @@ namespace MHFZ_Overlay {
                 this["SessionTimeY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -2758,7 +2758,7 @@ namespace MHFZ_Overlay {
                 this["ShowDiscordRPCOverlayMode"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -2770,7 +2770,7 @@ namespace MHFZ_Overlay {
                 this["QuestAttemptsShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("380")]
@@ -2782,7 +2782,7 @@ namespace MHFZ_Overlay {
                 this["QuestAttemptsX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("90")]
@@ -2794,7 +2794,7 @@ namespace MHFZ_Overlay {
                 this["QuestAttemptsY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
@@ -2806,7 +2806,7 @@ namespace MHFZ_Overlay {
                 this["PreviousVersionFilePath"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -2818,7 +2818,7 @@ namespace MHFZ_Overlay {
                 this["LocationTextShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("160")]
@@ -2830,7 +2830,7 @@ namespace MHFZ_Overlay {
                 this["LocationTextX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("600")]
@@ -2842,7 +2842,7 @@ namespace MHFZ_Overlay {
                 this["LocationTextY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -2854,7 +2854,7 @@ namespace MHFZ_Overlay {
                 this["QuestNameShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("160")]
@@ -2866,7 +2866,7 @@ namespace MHFZ_Overlay {
                 this["QuestNameX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("520")]
@@ -2878,7 +2878,7 @@ namespace MHFZ_Overlay {
                 this["QuestNameY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -2890,7 +2890,7 @@ namespace MHFZ_Overlay {
                 this["EnablePersonalBestPaceColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -2902,7 +2902,7 @@ namespace MHFZ_Overlay {
                 this["PersonalBestTimePercentShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("380")]
@@ -2914,7 +2914,7 @@ namespace MHFZ_Overlay {
                 this["PersonalBestTimePercentX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("130")]
@@ -2926,7 +2926,7 @@ namespace MHFZ_Overlay {
                 this["PersonalBestTimePercentY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("MS Gothic")]
@@ -2938,7 +2938,7 @@ namespace MHFZ_Overlay {
                 this["PrimaryFontFamily"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("21")]
@@ -2950,7 +2950,7 @@ namespace MHFZ_Overlay {
                 this["PrimaryFontSize"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Bold")]
@@ -2962,7 +2962,7 @@ namespace MHFZ_Overlay {
                 this["PrimaryFontWeight"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("MesloLGM NF")]
@@ -2974,7 +2974,7 @@ namespace MHFZ_Overlay {
                 this["SecondaryFontFamily"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("16")]
@@ -2986,7 +2986,7 @@ namespace MHFZ_Overlay {
                 this["SecondaryFontSize"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Bold")]
@@ -2998,7 +2998,7 @@ namespace MHFZ_Overlay {
                 this["SecondaryFontWeight"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("MS Gothic")]
@@ -3010,7 +3010,7 @@ namespace MHFZ_Overlay {
                 this["DamageNumbersFontFamily"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Bold")]
@@ -3022,7 +3022,7 @@ namespace MHFZ_Overlay {
                 this["DamageNumbersFontWeight"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -3034,7 +3034,7 @@ namespace MHFZ_Overlay {
                 this["EnableOutsideMezeportaLoadingWarning"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("30")]
@@ -3046,7 +3046,7 @@ namespace MHFZ_Overlay {
                 this["RefreshRate"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -3058,7 +3058,7 @@ namespace MHFZ_Overlay {
                 this["PersonalBestAttemptsShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("380")]
@@ -3070,7 +3070,7 @@ namespace MHFZ_Overlay {
                 this["PersonalBestAttemptsX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("170")]
@@ -3082,7 +3082,7 @@ namespace MHFZ_Overlay {
                 this["PersonalBestAttemptsY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -3094,7 +3094,7 @@ namespace MHFZ_Overlay {
                 this["EnableNationality"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -3106,7 +3106,7 @@ namespace MHFZ_Overlay {
                 this["EnableMonsterEHPDisplayCorrector"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0.001")]
@@ -3118,7 +3118,7 @@ namespace MHFZ_Overlay {
                 this["MonsterEHPDisplayCorrectorDefrateMinimumThreshold"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1")]
@@ -3130,7 +3130,7 @@ namespace MHFZ_Overlay {
                 this["MonsterEHPDisplayCorrectorDefrateMaximumThreshold"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Debug")]
@@ -3142,7 +3142,7 @@ namespace MHFZ_Overlay {
                 this["LogLevel"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -3154,7 +3154,7 @@ namespace MHFZ_Overlay {
                 this["EnableQuestCompletionsCounter"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("150")]
@@ -3166,7 +3166,7 @@ namespace MHFZ_Overlay {
                 this["GamepadSize"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("150")]
@@ -3178,7 +3178,7 @@ namespace MHFZ_Overlay {
                 this["KBMLayoutSize"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("300")]
@@ -3190,7 +3190,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAttackGraphWidth"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("300")]
@@ -3202,7 +3202,7 @@ namespace MHFZ_Overlay {
                 this["PlayerDPSGraphWidth"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("300")]
@@ -3214,7 +3214,7 @@ namespace MHFZ_Overlay {
                 this["PlayerHitsPerSecondGraphWidth"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("300")]
@@ -3226,7 +3226,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAPMGraphWidth"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("150")]
@@ -3238,7 +3238,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAttackGraphHeight"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("150")]
@@ -3250,7 +3250,7 @@ namespace MHFZ_Overlay {
                 this["PlayerDPSGraphHeight"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("150")]
@@ -3262,7 +3262,7 @@ namespace MHFZ_Overlay {
                 this["PlayerHitsPerSecondGraphHeight"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("150")]
@@ -3274,7 +3274,7 @@ namespace MHFZ_Overlay {
                 this["PlayerAPMGraphHeight"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Hardware")]
@@ -3286,7 +3286,7 @@ namespace MHFZ_Overlay {
                 this["RenderingMode"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -3298,7 +3298,7 @@ namespace MHFZ_Overlay {
                 this["ZenithGauntletMonstersShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3310,7 +3310,7 @@ namespace MHFZ_Overlay {
                 this["ZenithGauntletMonstersX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3322,7 +3322,7 @@ namespace MHFZ_Overlay {
                 this["ZenithGauntletMonstersY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3334,7 +3334,7 @@ namespace MHFZ_Overlay {
                 this["ZenithGauntletMonstersWidth"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3346,7 +3346,7 @@ namespace MHFZ_Overlay {
                 this["ZenithGauntletMonstersHeight"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
@@ -3358,7 +3358,7 @@ namespace MHFZ_Overlay {
                 this["ZenithGauntletOrder"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -3370,7 +3370,7 @@ namespace MHFZ_Overlay {
                 this["MusouGauntletMonstersShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3382,7 +3382,7 @@ namespace MHFZ_Overlay {
                 this["MusouGauntletMonstersX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3394,7 +3394,7 @@ namespace MHFZ_Overlay {
                 this["MusouGauntletMonstersY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3406,7 +3406,7 @@ namespace MHFZ_Overlay {
                 this["MusouGauntletMonstersWidth"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3418,7 +3418,7 @@ namespace MHFZ_Overlay {
                 this["MusouGauntletMonstersHeight"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
@@ -3430,7 +3430,7 @@ namespace MHFZ_Overlay {
                 this["MusouGauntletOrder"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -3442,7 +3442,7 @@ namespace MHFZ_Overlay {
                 this["SolsticeGauntletMonstersShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3454,7 +3454,7 @@ namespace MHFZ_Overlay {
                 this["SolsticeGauntletMonstersX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3466,7 +3466,7 @@ namespace MHFZ_Overlay {
                 this["SolsticeGauntletMonstersY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3478,7 +3478,7 @@ namespace MHFZ_Overlay {
                 this["SolsticeGauntletMonstersWidth"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3490,7 +3490,7 @@ namespace MHFZ_Overlay {
                 this["SolsticeGauntletMonstersHeight"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
@@ -3502,7 +3502,7 @@ namespace MHFZ_Overlay {
                 this["SolsticeGauntletOrder"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Automatic")]
@@ -3514,7 +3514,7 @@ namespace MHFZ_Overlay {
                 this["DamageNumbersMode"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -3526,7 +3526,7 @@ namespace MHFZ_Overlay {
                 this["HideOverlayWhenUnfocusedGame"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -3538,7 +3538,7 @@ namespace MHFZ_Overlay {
                 this["MonsterBarHPModeShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -3550,7 +3550,7 @@ namespace MHFZ_Overlay {
                 this["MonsterBarIconShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -3562,7 +3562,7 @@ namespace MHFZ_Overlay {
                 this["MonsterBarNameShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -3574,7 +3574,7 @@ namespace MHFZ_Overlay {
                 this["MonsterBarNumbersShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -3586,7 +3586,7 @@ namespace MHFZ_Overlay {
                 this["MonsterBarShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#11111b")]
@@ -3598,7 +3598,7 @@ namespace MHFZ_Overlay {
                 this["Monster1BarBorderColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#11111b")]
@@ -3610,7 +3610,7 @@ namespace MHFZ_Overlay {
                 this["Monster2BarBorderColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#11111b")]
@@ -3622,7 +3622,7 @@ namespace MHFZ_Overlay {
                 this["Monster3BarBorderColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#11111b")]
@@ -3634,7 +3634,7 @@ namespace MHFZ_Overlay {
                 this["Monster4BarBorderColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#11111b")]
@@ -3646,7 +3646,7 @@ namespace MHFZ_Overlay {
                 this["MonsterPoisonBarBorderColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#11111b")]
@@ -3658,7 +3658,7 @@ namespace MHFZ_Overlay {
                 this["MonsterParalysisBarBorderColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#11111b")]
@@ -3670,7 +3670,7 @@ namespace MHFZ_Overlay {
                 this["MonsterSleepBarBorderColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#11111b")]
@@ -3682,7 +3682,7 @@ namespace MHFZ_Overlay {
                 this["MonsterStunBarBorderColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#11111b")]
@@ -3694,7 +3694,7 @@ namespace MHFZ_Overlay {
                 this["MonsterBlastBarBorderColor"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3706,7 +3706,7 @@ namespace MHFZ_Overlay {
                 this["GauntletProgressX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3718,7 +3718,7 @@ namespace MHFZ_Overlay {
                 this["GauntletProgressY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3730,7 +3730,7 @@ namespace MHFZ_Overlay {
                 this["GauntletProgressWidth"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3742,7 +3742,7 @@ namespace MHFZ_Overlay {
                 this["GauntletProgressHeight"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3754,7 +3754,7 @@ namespace MHFZ_Overlay {
                 this["BingoProgressX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3766,7 +3766,7 @@ namespace MHFZ_Overlay {
                 this["BingoProgressY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -3778,7 +3778,7 @@ namespace MHFZ_Overlay {
                 this["BingoProgressSize"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -3790,7 +3790,7 @@ namespace MHFZ_Overlay {
                 this["GauntletProgressShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -3802,7 +3802,7 @@ namespace MHFZ_Overlay {
                 this["BingoProgressShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0.5")]
@@ -3814,7 +3814,7 @@ namespace MHFZ_Overlay {
                 this["VolumeMain"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1")]
@@ -3826,7 +3826,7 @@ namespace MHFZ_Overlay {
                 this["VolumeAchievementUnlock"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1")]
@@ -3838,7 +3838,7 @@ namespace MHFZ_Overlay {
                 this["VolumeChallengeUnlock"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1")]
@@ -3850,7 +3850,7 @@ namespace MHFZ_Overlay {
                 this["VolumeChallengeStart"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1")]
@@ -3862,7 +3862,7 @@ namespace MHFZ_Overlay {
                 this["VolumeHover"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1")]
@@ -3874,7 +3874,7 @@ namespace MHFZ_Overlay {
                 this["VolumeGachaUnlock"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1")]
@@ -3886,7 +3886,7 @@ namespace MHFZ_Overlay {
                 this["VolumeGachaTrial"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1")]
@@ -3898,7 +3898,7 @@ namespace MHFZ_Overlay {
                 this["VolumeSelect"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1")]
@@ -3910,7 +3910,7 @@ namespace MHFZ_Overlay {
                 this["VolumeGachaRare"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Final")]
@@ -3922,7 +3922,7 @@ namespace MHFZ_Overlay {
                 this["OverlayWatermarkMode"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Automatic")]
@@ -3934,7 +3934,7 @@ namespace MHFZ_Overlay {
                 this["DiscordOverlayMode"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -3946,7 +3946,7 @@ namespace MHFZ_Overlay {
                 this["QuestToggleMonsterModeShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -3958,7 +3958,7 @@ namespace MHFZ_Overlay {
                 this["EnableAttemptsPerPersonalBest"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
@@ -3970,7 +3970,7 @@ namespace MHFZ_Overlay {
                 this["PlayerPositionShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5")]
@@ -3982,7 +3982,7 @@ namespace MHFZ_Overlay {
                 this["PlayerPositionX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("140")]
@@ -3994,7 +3994,7 @@ namespace MHFZ_Overlay {
                 this["PlayerPositionY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Automatic")]
@@ -4006,7 +4006,7 @@ namespace MHFZ_Overlay {
                 this["PlayerPositionMode"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -4018,7 +4018,7 @@ namespace MHFZ_Overlay {
                 this["DivaSongTimerShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5")]
@@ -4030,7 +4030,7 @@ namespace MHFZ_Overlay {
                 this["DivaSongTimerX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("100")]
@@ -4042,7 +4042,7 @@ namespace MHFZ_Overlay {
                 this["DivaSongTimerY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -4054,7 +4054,7 @@ namespace MHFZ_Overlay {
                 this["GuildFoodTimerShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("5")]
@@ -4066,7 +4066,7 @@ namespace MHFZ_Overlay {
                 this["GuildFoodTimerX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("60")]
@@ -4078,7 +4078,7 @@ namespace MHFZ_Overlay {
                 this["GuildFoodTimerY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0.2")]
@@ -4090,7 +4090,7 @@ namespace MHFZ_Overlay {
                 this["PlayerInputUnpressedOpacity"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0.5")]
@@ -4102,7 +4102,7 @@ namespace MHFZ_Overlay {
                 this["PlayerInputPressedOpacity"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -4114,7 +4114,7 @@ namespace MHFZ_Overlay {
                 this["DualSwordsSharpensShown"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("105")]
@@ -4126,7 +4126,7 @@ namespace MHFZ_Overlay {
                 this["DualSwordsSharpensX"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("102")]
@@ -4138,7 +4138,7 @@ namespace MHFZ_Overlay {
                 this["DualSwordsSharpensY"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Local")]
@@ -4150,7 +4150,7 @@ namespace MHFZ_Overlay {
                 this["FrontierServerOption"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -4162,7 +4162,7 @@ namespace MHFZ_Overlay {
                 this["EnableAchievementsTracking"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Shift + F1")]
@@ -4174,7 +4174,7 @@ namespace MHFZ_Overlay {
                 this["OpenSettingsHotkey"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Shift + F5")]
@@ -4186,7 +4186,7 @@ namespace MHFZ_Overlay {
                 this["RestartProgramHotkey"] = value;
             }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Shift + F6")]

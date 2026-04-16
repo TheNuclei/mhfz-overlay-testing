@@ -17,10 +17,10 @@
         d:DataContext="{d:DesignInstance Type=viewmodels:AddressModel}"
         mc:Ignorable="d"
         x:Name="Window"
-        Title="Monster Hunter Frontier Z Overlay"         
+        Title="Monster Hunter Frontier Z Overlay"
         Height="{Binding Source={StaticResource Settings},Path=MaxResolutionHeight}"
         Width="{Binding Source={StaticResource Settings},Path=MaxResolutionWidth}"
-        Background="Transparent" 
+        Background="Transparent"
         AllowsTransparency="True"
         WindowStyle="None"
         Loaded="Window_Loaded"
@@ -122,7 +122,7 @@
                     </ContextMenu>
                 </tray:NotifyIcon.Menu>
             </tray:NotifyIcon>
-            <ui:TitleBar Visibility="Hidden" BorderThickness="0" BorderBrush="{StaticResource Red}" x:Name="TitleBarBorder"/>
+            <Border Visibility="Hidden" BorderThickness="0" BorderBrush="{StaticResource Red}" x:Name="TitleBarBorder" IsHitTestVisible="False"/>
             <Canvas x:Name="MainGrid" Width="{Binding Source={StaticResource Settings},Path=MaxResolutionWidth}" Height="{Binding Source={StaticResource Settings},Path=MaxResolutionHeight}" Background="Transparent" AllowDrop="True" Drop="MainGrid_Drop" DragOver="MainGrid_DragOver"  MouseMove="MainGrid_MouseMove">
             <Grid x:Name="SharpnessInfo" Canvas.Left="{Binding Source={StaticResource Settings},Path=SharpnessInfoX}" Canvas.Top="{Binding Source={StaticResource Settings},Path=SharpnessInfoY}" Width="200" Height="50" MouseLeftButtonDown="ElementMouseLeftButtonDown" Background="{Binding Source={StaticResource Settings},Path=TextBackGroundColor}"  Visibility="{Binding ElementName=Window, Path=DataLoader.Model.ShowSharpness, Converter={StaticResource BoolToVis}}">
                 <Grid.ColumnDefinitions >
@@ -447,7 +447,7 @@
                                IconSource="{Binding ElementName=Window, Path=DataLoader.Model.CurrentMonster1Image}"
                                NumCurr="{Binding  ElementName=Window, Path=DataLoader.Model.Monster1HP}"
                                NumMax="{Binding  ElementName=Window, Path=DataLoader.Model.Monster1MaxHP}"
-                               BarColor="{Binding  ElementName=Window, Path=DataLoader.Model.Monster1HPBarColor}" 
+                               BarColor="{Binding  ElementName=Window, Path=DataLoader.Model.Monster1HPBarColor}"
                                StrokeColor="{Binding  ElementName=Window, Path=DataLoader.Model.Monster1StrokeColor}"
                                HPMode="{Binding ElementName=Window, Path=DataLoader.Model.Monster1HPModeText}"
                                BorderColor="{Binding ElementName=Window, Path=DataLoader.Model.Monster1BarBorderColor}"
@@ -467,7 +467,7 @@
                                Description="{Binding ElementName=Window, Path=DataLoader.Model.Monster2Name}"
                                NumCurr="{Binding  ElementName=Window, Path=DataLoader.Model.Monster2HP}"
                                NumMax="{Binding  ElementName=Window, Path=DataLoader.Model.Monster2MaxHP}"
-                               BarColor="{Binding  ElementName=Window, Path=DataLoader.Model.Monster2HPBarColor}" 
+                               BarColor="{Binding  ElementName=Window, Path=DataLoader.Model.Monster2HPBarColor}"
                                StrokeColor="{Binding  ElementName=Window, Path=DataLoader.Model.Monster2StrokeColor}"
                                 HPMode="{Binding ElementName=Window, Path=DataLoader.Model.Monster2HPModeText}"
                                 BorderColor="{Binding ElementName=Window, Path=DataLoader.Model.Monster2BarBorderColor}"
@@ -488,7 +488,7 @@
                                Description="{Binding ElementName=Window, Path=DataLoader.Model.Monster3Name}"
                                NumCurr="{Binding  ElementName=Window, Path=DataLoader.Model.Monster3HP}"
                                NumMax="{Binding  ElementName=Window, Path=DataLoader.Model.Monster3MaxHP}"
-                               BarColor="{Binding  ElementName=Window, Path=DataLoader.Model.Monster3HPBarColor}" 
+                               BarColor="{Binding  ElementName=Window, Path=DataLoader.Model.Monster3HPBarColor}"
                                StrokeColor="{Binding  ElementName=Window, Path=DataLoader.Model.Monster3StrokeColor}"
                                 HPMode="{Binding ElementName=Window, Path=DataLoader.Model.Monster3HPModeText}"
                                 BorderColor="{Binding ElementName=Window, Path=DataLoader.Model.Monster3BarBorderColor}"
@@ -509,7 +509,7 @@
                                Description="{Binding ElementName=Window, Path=DataLoader.Model.Monster4Name}"
                                NumCurr="{Binding  ElementName=Window, Path=DataLoader.Model.Monster4HP}"
                                NumMax="{Binding  ElementName=Window, Path=DataLoader.Model.Monster4MaxHP}"
-                               BarColor="{Binding  ElementName=Window, Path=DataLoader.Model.Monster4HPBarColor}" 
+                               BarColor="{Binding  ElementName=Window, Path=DataLoader.Model.Monster4HPBarColor}"
                                StrokeColor="{Binding  ElementName=Window, Path=DataLoader.Model.Monster4StrokeColor}"
                                 HPMode="{Binding ElementName=Window, Path=DataLoader.Model.Monster4HPModeText}"
                                 BorderColor="{Binding ElementName=Window, Path=DataLoader.Model.Monster4BarBorderColor}"
@@ -570,7 +570,7 @@
                                IconSource="../../Assets/Icons/png/poison.png"
                                NumCurr="{Binding  ElementName=Window, Path=DataLoader.Model.PoisonCurrent}"
                                NumMax="{Binding  ElementName=Window, Path=DataLoader.Model.PoisonMax}"
-                               BarColor="{Binding Source={StaticResource Settings},Path=MonsterPoisonBarColor}" 
+                               BarColor="{Binding Source={StaticResource Settings},Path=MonsterPoisonBarColor}"
                                 StrokeColor="{Binding Source={StaticResource Settings},Path=MonsterPoisonStrokeColor}"
                                 FontSize="16" FontFamily="{StaticResource Source Code Pro Bold}"  BorderColor="{Binding Source={StaticResource Settings},Path=MonsterPoisonBarBorderColor}"/>
         </Grid>
@@ -579,7 +579,7 @@
             <Border x:Name="MonsterSleepInfoBorder" BorderBrush="{StaticResource Red}"  BorderThickness="0"/>
             <customcontrols:MonsterStatusBar  Foreground="#74c7ec" x:Name="MonsterSleepBar" IsHitTestVisible="False"
                                Description="Sleep"
-                               IconSource="../../Assets/Icons/png/sleep.png" 
+                               IconSource="../../Assets/Icons/png/sleep.png"
                                NumCurr="{Binding  ElementName=Window, Path=DataLoader.Model.SleepCurrent}"
                                NumMax="{Binding  ElementName=Window, Path=DataLoader.Model.SleepMax}"
                                    StrokeColor="{Binding Source={StaticResource Settings},Path=MonsterSleepStrokeColor}"
@@ -590,7 +590,7 @@
             <Border x:Name="MonsterParaInfoBorder" BorderBrush="{StaticResource Red}" BorderThickness="0"/>
             <customcontrols:MonsterStatusBar  Foreground="#f9e2af" x:Name="MonsterParaBar" IsHitTestVisible="False"
                                Description="Para."
-                                   IconSource="../../Assets/Icons/png/paralysis.png" 
+                                   IconSource="../../Assets/Icons/png/paralysis.png"
                                NumCurr="{Binding  ElementName=Window, Path=DataLoader.Model.ParaCurrent}"
                                NumMax="{Binding  ElementName=Window, Path=DataLoader.Model.ParaMax}"
                                BarColor="{Binding Source={StaticResource Settings},Path=MonsterParaBarColor}"
@@ -603,10 +603,10 @@
             <Border x:Name="MonsterBlastInfoBorder" BorderBrush="{StaticResource Red}" BorderThickness="0"/>
             <customcontrols:MonsterStatusBar  Foreground="#a6e3a1" x:Name="MonsterBlastBar" IsHitTestVisible="False"
                                Description="Blast"
-                                   IconSource="../../Assets/Icons/png/blast.png" 
+                                   IconSource="../../Assets/Icons/png/blast.png"
                                NumCurr="{Binding  ElementName=Window, Path=DataLoader.Model.BlastCurrent}"
                                NumMax="{Binding  ElementName=Window, Path=DataLoader.Model.BlastMax}"
-                               BarColor="{Binding Source={StaticResource Settings},Path=MonsterBlastBarColor}" 
+                               BarColor="{Binding Source={StaticResource Settings},Path=MonsterBlastBarColor}"
                                 StrokeColor="{Binding Source={StaticResource Settings},Path=MonsterBlastStrokeColor}"
                                 BorderColor="{Binding Source={StaticResource Settings},Path=MonsterBlastBarBorderColor}"
                                    />
@@ -787,7 +787,7 @@
         <Button Content="Press ESC to Exit" x:Name="ExitDragAndDrop" Visibility="Hidden" HorizontalAlignment="Left"  Foreground="#f5e0dc"  Style="{StaticResource DefaultButton}"  Click="ExitDragAndDrop_Click" Canvas.Left="850" Canvas.Top="1"/>
 
         </Canvas>
-        
+
     </Grid>
         <!--https://stackoverflow.com/questions/5450985/how-to-make-overlay-control-above-all-other-controls-->
         <ui:SnackbarPresenter Grid.ZIndex="2" x:Name="MainWindowSnackBarPresenter" d:Visibility="Hidden"/>

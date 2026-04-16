@@ -1188,6 +1188,7 @@
                                 <RowDefinition Height="40"/>
                                 <RowDefinition Height="40"/>
                                 <RowDefinition Height="40"/>
+                                <RowDefinition Height="40"/>
                             </Grid.RowDefinitions>
 
                             <StackPanel Orientation="Horizontal" Margin="5,0,0,0" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
@@ -1384,6 +1385,7 @@
                             <TextBlock Margin="5" ToolTip="Hide the overlay when the game or overlay is unfocused" Style="{StaticResource ConfigTextBox}" Grid.Row="27" Grid.Column="0"  Text="Hide Overlay when Unfocused Game"/>
                             <ui:ToggleSwitch HorizontalAlignment="Center" Grid.Row="27" Grid.Column="1"  IsChecked="{Binding Source={StaticResource Settings}, Path=HideOverlayWhenUnfocusedGame}"/>
                             <StackPanel Grid.Row="28" Grid.Column="0" Margin="5" Orientation="Horizontal">
+                            
                                 <ui:SymbolIcon Margin="0,0,5,0" Symbol="Info28" Foreground="{StaticResource Yellow}" FontSize="28" ToolTip="Overlay Restart Required"/>
                                 <TextBlock ToolTip="Select Logging Level. Each log entry has a level. Specifies the minimum level where that level and higher levels are included. For example, if the minimum level is Info, then Info, Warn, Error and Fatal are logged, but Debug and Trace are ignored." Style="{StaticResource ConfigTextBox}" Text="Log Level"/>
                             </StackPanel>
@@ -1396,6 +1398,8 @@
                                 <ComboBoxItem>Fatal</ComboBoxItem>
                             </ComboBox>
                             <!--<Button Grid.Row="43" Grid.Column="0" Grid.ColumnSpan="2" Content="Import settings" ToolTip="Import user settings from file" Click="ImportUserSettings_Click"/>-->
+                            <TextBlock Margin="5" ToolTip="Scale all UI element positions to match your current resolution. This will overwrite any custom positions." Style="{StaticResource ConfigTextBox}" Grid.Row="29" Grid.Column="0" Text="Scale UI Positions to Resolution"/>
+                            <Button Grid.Row="29" Grid.Column="1" HorizontalAlignment="Center" Content="Apply Default Positions" ToolTip="Scales all element positions from the 1360x768 reference layout to your current resolution." Click="ScalePositionsToResolution_Click" Style="{StaticResource DefaultButton}" Foreground="{StaticResource Text}" Padding="8,4"/>
                         </Grid>
                     </ScrollViewer>
                     <customcontrols:MainConfigurationActions Grid.Row="1" Grid.ColumnSpan="1" Loaded="MainConfigurationActions_Loaded" Unloaded="MainConfigurationActions_Unloaded"/>
